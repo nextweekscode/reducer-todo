@@ -20,9 +20,8 @@ function TodoForm(){
     
 
       return(
-      <div className="background">
-         <div className="mainC">
-            <div className="interfaceC">
+       <>
+            <div >
                <input 
                    name = "name"
                    type = "text"
@@ -48,10 +47,8 @@ function TodoForm(){
                 })
             }
             </div>
-            
-         </div>
-      </div>
-        
+         </>   
+    
       )
   }
 
