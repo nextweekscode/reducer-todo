@@ -28,7 +28,7 @@ export const initialState = {
               }
             })
           )
-          case 'CLEAR_COMPLETED':
+          case 'DELETE_COMPLETED':
           return (
             state.filter( item => item.completed === false)
           )

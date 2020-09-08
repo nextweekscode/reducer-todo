@@ -16,7 +16,7 @@ function App() {
   const [state, dispatch] = useReducer(toDoReducer, todos)
 
   const handleClear = e => {
-    dispatch({ type: 'CLEAR_COMPLETED'})
+    dispatch({ type: 'DELETE_COMPLETED'})
   }
 
   return (
